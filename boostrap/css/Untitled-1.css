@@ -1,0 +1,12 @@
+header{
+    background-color: rgb(175, 170, 170);
+    text-align: center;
+    padding: 1em;
+}
+body{
+    background-color: rgb(179, 179, 179);
+}
+img{
+    width: 50% ;
+    height: 50%;
+}
