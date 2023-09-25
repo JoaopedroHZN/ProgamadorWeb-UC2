@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senac Tocantins</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Icones -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <!-- Link Css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="body">
+
+    <header>
+        <nav class="navbar nav-top navbar-expand-sm">
+            <div class="container-fluid nav-container row">
+                <div class="col-4">
+                    <a href="https://www.instagram.com/senactocantins/" target="_blank"><img src="img/logo.png"
+                            style="max-width: 130px; "></a>
+                </div>
+                <div class="col-4">
+                    <form>
+                        <input class="form-control" type="text" placeholder="Pesquisar">
+                    </form>
+                </div>
+                <div class="col-4">
+                    <i class="bi bi-house-door icons"></i>
+                    <i class="bi bi-inbox icons"></i>
+                    <i class="bi bi-compass icons"></i>
+                    <i class="bi bi-heart icons"></i>
+                    <img class="img-nav" src="img/foto-instagram.png">
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <main class="principal">
+        <!--Perfil-->
+        <section class="row" style="padding-top: 5%;">
+            <div class="col-3"><img class="img-perfil" src="/img/foto-instagram.png"></div>
+            <div class="col-7">
+                <!--Nome de Usuario-->
+                <div class="row">
+                    <div class="col-8">
+                        <h2 class="nome-perfil">senactocantins</h2>
+                    </div>
+                    <div class="col-4">
+                        <button type="button" class="btn btn-outline-secondary botao">Editar Perfil</button>
+                    </div>
+                </div>
+                <!--Dados de Seguidores-->
+                <div class="row" style="padding-top: 5%;">
+                    <div class="col-4">
+                        <p style="font-size: 10px;"><strong>1.895</strong> publicações</p>
+
+                    </div>
+                    <div class="col-4">
+                        <p style="font-size: 10px;"><strong>32 mil</strong> seguidores</p>
+
+                    </div>
+                    <div class="col-4">
+                        <p style="font-size: 10px;"><strong>557</strong> seguindo</p>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="nome">Senac Tocantins</h1>
+                    </div>
+                </div>
+                <!--Descrição-->
+                <div class="row descrição">
+                    <div class="col-12">
+                        <p>Educação profissional de qualidade você encontra aqui 📚<br>
+                            #vemserSenac #senacto<br>
+                            ☎️ Whatsapp: (63) 99202-0384<br>
+                            ⭐️ Acesse nossos links ⤵️<br>
+                            <a style="text-decoration: none;" href="https://linktr.ee/senactocantins"
+                                target="_blank">https://linktr.ee/senactocantins</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </section>
+        <!--Destaques-->
+        <section class="row">
+            <div class="col-4"><canvas id="circulo1"></canvas></div>
+            <div class="col-4"><canvas id="circulo2"></canvas></div>
+            <div class="col-4"><canvas id="circulo3"></canvas></div>
+            <div>
+            <div class="row">
+                <div class="col-4 destaques"><pre>Taquaralto</pre></div>
+                <div class="col-4 destaques"><pre>Gurupi</pre></div>
+                <div class="col-4 destaques"><pre>Palmas</pre></div>
+            </div>
+        </div>
+        </section>
+        <hr>
+        <!--Nav-Feed-->
+        <ul class="nav nav-tabs nav-feed " id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active nav-link-1" id="home-tab" data-bs-toggle="tab" href="#home"  aria-controls="home" aria-selected="true"><i class="bi bi-grid-3x3"></i>PUBLICAÇÕES</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link nav-link-2 " id="profile-tab" data-bs-toggle="tab" href="#profile" aria-controls="profile" aria-selected="false"><i class="bi bi-file-person"></i>MARCADOS</a>
+            </li>
+        </ul>
+       
+            <!--Publicações-->
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="row" style="padding-bottom: 25px;">
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="/img/post1.png" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="/img/post2.png" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="/img/post3.png" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="padding-bottom: 25px;">
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="/img/post4.png" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="/img/post5.png" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="/img/post6.png" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="padding-bottom: 25px;">
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="/img/post7.png" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+                    <div class="row" style="padding-bottom: 25px;">
+                        <div class="col-4">
+                            <div class="card">
+                                <img src="/img/marc1.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card">
+                                <img src="/img/marc2.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card">
+                                <img src="/img/marc3.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        <script type="text/javascript">
+            var crl1 = document.getElementById("circulo1")
+            var ctx1 = crl1.getContext("2d");
+            ctx1.fillStyle = '#00ACC1';
+            ctx1.beginPath();
+            ctx1.arc(60, 100, 40, 0, 2 * Math.PI);
+            ctx1.closePath();
+            ctx1.fill();
+
+
+            var crl2 = document.getElementById("circulo2")
+            var ctx2 = crl2.getContext("2d");
+            ctx2.fillStyle = '#FF80F4';
+            ctx2.beginPath();
+            ctx2.arc(60, 100, 40, 0, 2 * Math.PI);
+            ctx2.closePath();
+            ctx2.fill();
+
+
+            var crl3 = document.getElementById("circulo3")
+            var ctx3 = crl3.getContext("2d");
+            ctx3.fillStyle = '#D82148';
+            ctx3.beginPath();
+            ctx3.arc(60, 100, 40, 0, 2 * Math.PI);
+            ctx3.closePath();
+            ctx3.fill();
+        
+        </script>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+
+
+        <!--Postagens-->
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
