@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 03</title>
+</head>
+
+<body>
+    
+    <p id="txt"></p>
+    <form>
+        <label>Numero 1:</label>
+        <input type="number" id="num1" value="0"><br>
+        <label>Numero 2:</label>
+        <input type="number" id="num2" value="0">
+    </form>
+    <button onclick="calcular()">Soma</button>
+
+</body>
+<script>
+    //Operadores
+    // let result = x * y;
+
+    //document.getElementById("txt").innerHTML = "O valor é: " + result;
+    function calcular(){
+        var num1 = Number(document.getElementById("num1").value);
+        var num2 = Number(document.getElementById("num2").value);
+
+        var soma = num1 + num2;
+        document.getElementById("txt").innerHTML = "A soma é: " + soma;
+    }
+</script>
+
+</html>
