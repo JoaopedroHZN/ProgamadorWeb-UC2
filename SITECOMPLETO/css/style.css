@@ -1,0 +1,47 @@
+
+.nav-top{
+    background-color: rgb(47, 47, 114) !important;
+    
+
+}
+
+.nav-menu{
+    color: white !important;
+
+}
+
+.img-car{
+    max-height: 600px !important;
+    
+}
+
+.divisao{
+    background-color: rgb(47, 47, 114) !important;
+    text-align: center !important; 
+    color: white !important;
+    padding: 2em !important;
+}
+
+.sec-pacotes{
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    justify-content: center !important;
+    margin: 0.5% !important;
+}
+
+.sec-pacotes p{
+    text-align: justify !important;
+}
+
+.card{
+    margin-left: 1em !important;
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
+    padding: 1em !important;
+}
+
+footer{
+    text-align: center !important;
+    background-color: rgb(47, 47, 114) !important;
+    color: white !important;
+}
