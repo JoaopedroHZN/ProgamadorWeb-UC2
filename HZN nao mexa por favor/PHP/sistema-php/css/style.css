@@ -1,0 +1,29 @@
+header{
+    background-color: #006eff !important;
+    padding: 3% !important;
+    color: white !important;
+    text-align: center !important;    
+}
+
+.sec-conteudo{
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+    margin-bottom: 11% !important;
+    margin-top: 9% !important;
+    justify-content: center !important;
+}
+
+.div-item{
+    text-align: center;
+}
+
+footer{
+    background-color: #006eff !important;
+    text-align: center !important;
+    color: white !important;
+    padding: 2% !important;
+}
+
+.img-react{
+    width: 80% !important;
+}

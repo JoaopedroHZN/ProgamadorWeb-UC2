@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 05</title>
+</head>
+
+<body>
+    <h1>Número Maior</h1>
+    <p id="txt"></p>
+    <form>
+        <label>Número 1:</label>
+        <input type="number" id="num1" value="0"><br>
+        <label>Número 2:</label>
+        <input type="number" id="num2" value="0">
+    </form>
+    <button onclick="verificar()">Verificar</button>
+</body>
+<!--Javascript-->
+<script>
+    function verificar() {
+        var num1 = Number(document.getElementById("num1").value);
+        var num2 = Number(document.getElementById("num2").value);
+        var resultado = document.getElementById("txt");
+
+        if (num1 > num2) {
+            // alert("Maior é:" + num1);
+            resultado.innerHTML = "O maior é:  " + num1;
+        }
+
+        else if (num2 > num1) {
+            //alert("Maior é:" + num2);
+            resultado.innerHTML = "O maior é:  " + num2;
+        }
+
+        else {
+            //alert("Números Iguais");
+            resultado.innerHTML = "Os são Números Iguais,Digite outro Por favor !!!";
+        }
+    }
+</script>
+
+</html>

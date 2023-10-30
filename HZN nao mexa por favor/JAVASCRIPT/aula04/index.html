@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+
+</head>
+
+<body>
+    <h1>Calcular IMC</h1>
+    <p id="txt"></p>
+    <form>
+        <label> Digite seu Peso(KG):</label>
+        <input type="number" id="Peso" value="0"><br>
+        <label> Digite sua Altura(m):</label>
+        <input type="number" id="Altura" value="0">
+    </form>
+    <button onclick="Calcular()">Calcular</button>
+</body>
+<script>
+    function Calcular() {
+        var Peso = Number(document.getElementById("Peso").value);
+        var Altura = Number(document.getElementById("Altura").value);
+
+
+        //Categoria IMC
+        var imc = Peso / (Altura * Altura);
+
+        if (imc < 18.5) {
+            document.getElementById("txt").innerHTML = "Seu IMC está abaixo do Peso: " + imc;
+        }
+        else if (imc >= 18.5 && imc <= 24.9) {
+            document.getElementById("txt").innerHTML = "Você está no Peso ideal(Parabéns!!!): " + imc;
+        }
+        else if (imc > 24.9 && imc <= 29.9) {
+            document.getElementById("txt").innerHTML = " Você está Levemente acima do Peso: " + imc;
+        }
+        else if (imc > 29.9 && imc <= 34.9) {
+            document.getElementById("txt").innerHTML = "  Você está com Obesidade Grau 1: " + imc;
+        }
+        else if (imc > 34.9 && imc <= 39.9) {
+            document.getElementById("txt").innerHTML = " Você está com Obesidade Grau 2(Severa): " + imc;
+        }
+        else {
+            document.getElementById("txt").innerHTML = " Você está com Obesidade 3 (Mórbida): " + imc;
+        }
+    }
+
+</script>
+ 
+</html>
